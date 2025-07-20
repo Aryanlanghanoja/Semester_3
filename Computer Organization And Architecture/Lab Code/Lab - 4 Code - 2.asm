@@ -1,0 +1,8 @@
+MVI D,8EH;
+MVI E,F7H;
+MVI A,0FH;
+ANA D;
+MOV D,A;
+MVI A,0FH;
+ANA E;
+MOV E,A;

@@ -1,0 +1,10 @@
+MVI B,93H;
+MVI A,15H;
+MOV C,A;
+ORA B;
+MOV D,A;
+MOV A,C;
+XRA B;
+MOV E,A;
+MOV A,C;
+CMA 

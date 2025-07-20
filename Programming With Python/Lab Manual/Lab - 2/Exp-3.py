@@ -1,0 +1,18 @@
+A = input("Enter A First String:-")
+B = input("Enter A Second String:-")
+concat = A + B
+
+print(f"First String :- {A}\nSecond String :- {B}")
+print(f"Concated String :- {concat}")
+print(f"Length Of String Is :- {len(concat)}")
+print("Sub Strings:-")
+print(concat[5:10])
+print(concat[0:])
+print(concat[:10])
+print(concat[::1])
+print(concat[4::])
+print(concat[::2])
+print(concat[-2::])
+print(concat[::-1])
+print(concat[::-3])
+print(concat[-3::1])

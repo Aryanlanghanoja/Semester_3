@@ -1,0 +1,23 @@
+SizeofQueue = 5
+int queue[5]
+head = -1;
+tail = -1;
+void enqueue(int data){
+		if(((tail+1)%sizeofQueue)==head){
+			cout<<"Queue is full";
+		}
+		tail = (tail+1)%sizeofQueue;
+		queue[tail]=data
+		if(head==-1)
+		head++;		
+}
+int dequeque(){
+	if(head==-1 || tail==-1)
+		return "Queue is empty";
+	data = queue[head];
+	if(head==tail){
+		head = -1;		tail = -1;
+	}else{
+		head = (head+1)%sizeofQueue
+	}
+}

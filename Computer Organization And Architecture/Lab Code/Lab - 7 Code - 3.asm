@@ -1,0 +1,10 @@
+LXI D,003F;
+LXI B,03E8H;
+LXI H,0000;
+
+L1: DAD D;
+    DCX B;
+    JNZ L1;
+    XCHG
+    SHLD C100H;
+    HLT

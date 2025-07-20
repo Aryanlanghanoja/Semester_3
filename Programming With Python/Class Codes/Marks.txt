@@ -1,0 +1,6 @@
+Sr No	Name	Marks
+1	Aryan	350
+2	Krish	345
+3	Umang	340
+4	Jay	335
+5	Rishit	330

@@ -1,0 +1,18 @@
+	   MVI C,00
+
+LOOP:	   CALL DELAY
+	   INR C
+	   MVI A,09
+	   CMP C
+	   JZ DONE
+	   JMP LOOP
+
+DELAY:	   MVI B,FF
+
+DELAY_LOOP:	   DCX B
+	   MOV A,B
+	   CPI 00
+	   JNZ DELAY_LOOP
+	   RET
+
+DONE:	   HLT

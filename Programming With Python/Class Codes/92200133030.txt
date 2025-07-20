@@ -1,0 +1,7 @@
+1) Programming With Python
+2) Computer Organization And Architecture
+3) Introduction To Communication Enginnering
+4) Discrete Mathematics and Graph Theory
+5) Signals and Systems
+6) Data Structures Using C++
+7) Stock Market For Beginners
